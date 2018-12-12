@@ -13,8 +13,8 @@ window.i18n.languages['en'] = {
     "label_text": {
         "huodejiangli":"Congratulations to our Treasure Hunt (number) winners xxx! You will get xxx reward ",
         "daojishi":"Noxxx Countdown",      
-        "yigoumai":"Purchased：%{ji}个",
-        "shengyu":"Leftover：%{ji}个",
+        "yigoumai":"Purchased：%{ji}",
+        "shengyu":"Leftover：%{ji}",
         "anniu_lijizhifu":"Pay Immediately",
         "zichuan":"User Assets",
         "anniu_tibi":"Withdrawal",
