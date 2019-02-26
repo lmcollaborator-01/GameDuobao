@@ -114,7 +114,7 @@ There are two or three cards of the same rank in the first three cards.
 The difference between the first two cards is 2.
 <img src= 'd4' /><img src= 'd6' /><img src= 'h8' />
 Payout Ratio of Prize Pool:
-The higher bet amount, the more payout will be earned from the prize pool. 
+The higher the bet amount, the more the payout from prize pool. 
 5-card Straight Flush: (彩池固定比+浮动比最大限制) of the pool
 <img src= 'c2' /><img src= 'c3' /><img src= 'c4' /><img src= 'c5' /><img src= 'c6' /> <img src= 's7' /><img src= 's8' /><img src= 's9' /><img src= 's10' /><img src= 's11' />
 4-card Straight Flush: (彩池固定比+浮动比最大限制) of the pool
