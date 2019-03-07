@@ -16,42 +16,42 @@ window.i18n.languages['en'] = {
  kaishila:"开始啦",
 
  //  主游戏
- zongtouzhu:"总：%{zongtouzhu}",
- wotouzhu:"我：%{wotouzhu}",
- zichan: "资产：%{zichan}",
- zhunbeijin:"准备金：%{zhunbeijin}",
- yuebuzu: "余额不足，请立即充值。",
- touzhu:"当前可投注：%{touzhu}",
- denglu:"请点击右上角菜单登录！",
- tuichuliebiao:"退出列表",
+ zongtouzhu:"Total: %{zongtouzhu}",
+ wotouzhu:"Me: %{wotouzhu}",
+ zichan: "Assets%{zichan}",
+ zhunbeijin:"Bankroll: %{zhunbeijin}", //准备金？？
+ yuebuzu: "Insufficient balance. Please deposit.",
+ touzhu:"Current Bet Limit: %{touzhu}",
+ denglu:"Please sign in from the menu on the top right.",
+ tuichuliebiao:"Exit", //Close??
  kanzhuangliebiao:"上庄列表",
- szshibai:"申请上庄失败",
+ szshibai:"Failed to bank",
  szchenggong:"申请上庄成功",
  xzchenggong:"申请下庄成功",
- shangzhuang:"我要上庄",
+ shangzhuang:"Bank the Table",
  xuanzhong:"选中状态设置必须大于0",
  zbjinshangxian:"游戏准备金不能小于上庄限额%{zbjinshangxian}",
- dengdai:"等待下一轮开始...", // 记得加上...
- jipai:"记牌",
- jihaozhuo:"%{jihaozhuo}号桌", // x号桌
+ dengdai:"Waiting for next round...", // 记得加上...
+ jipai:"记牌", //Card Counting??
+ jihaozhuo:"Table %{jihaozhuo}", // x号桌
 
- zhanghu: "账户：%{zhanghu}",
- wujilu: "暂无记录",
+ zhanghu: "Account: %{zhanghu}",
+ wujilu: "No records",
  paomadeng:"恭喜用户%{yonghu}投注%{beishu}倍，获得%{etcjiang}奖励",
  
  // 上庄
- paixu:"排序",
- yonghu:"用户",
- jine:"金额",
- jineZhushi:"* 金额高的排序在前",
+ paixu:"Rank",
+ yonghu:"Player",
+ jine:"Bankroll", //准备金？？
+ jineZhushi:"* Ranking based on bankroll amount",
  qian1lun:"前1轮",
  qian1lun:"前2轮",
  qian1lun:"前3轮",
  qian1lun:"前4轮",
  qian1lun:"前5轮",
- shenglv:"胜率",
+ shenglv:"Win Rate",
  shenglvZhushi:"* 胜率根据近100局的胜负统计",
- zhuang:"庄",
+ zhuang:"Banker",
  // 坐庄
  shezhijine:"设定庄家上庄金额",
  zidongbuzu:"自动补足坐庄金额", // 自动补足坐庄金额 xx 次 翻译的时候注意一下是放在下面还是上面
@@ -63,43 +63,43 @@ window.i18n.languages['en'] = {
  xiazhuang:"下庄",
 
  //购买弹层
- yueyichang:"账号余额异常，请重新尝试或联系客服：support@coingame.com",
- koukuanshibai:"扣款失败，请重新购买或联系客服：support@coingame.com",
- zhunbeijinbuzu:"庄家准备金不足",
- kaijiangshibai:"开奖失败，请联系客服：support@coingame.com",
- youxizhong:"开奖中不能投币",
+ yueyichang:"Error in account balance. Please contact: support@coingame.com",
+ koukuanshibai:"Failed to pay. Please purchase again, or contact: support@coingame.com",
+ zhunbeijinbuzu:"Insufficient bankroll",
+ kaijiangshibai:"Failed to get result. Please contact: support@coingame.com",
+ youxizhong:"Calculating results. Please start later.",
 
  //提示
- wangluo: "当前网络不可用，请检查网络连接是否正常。",
- wangluolianjie: "当前网络异常！您可以尝试重新连接",
+ wangluo: "Network unavailable. Please check your network connection.",
+ wangluolianjie: "Network error. Please try reconnecting.",
  
  // ui 中设置
  // main
- anniu_tibi: "提币",
- anniu_chongzhi: "充值",
+ anniu_tibi: "Withdraw",
+ anniu_chongzhi: "Deposit",
  //按钮
- anniu_1: "确认",
- anniu_2: "取消",
+ anniu_1: "Confirm",
+ anniu_2: "Cancel",
  //新手引导
- yindao_guanwang: "官网",
- yindao_login:"注册/登录",
- yindao_android:"安卓客户端",
+ yindao_guanwang: "Home Page",
+ yindao_login:"Sign Up / Sign In",
+ yindao_android:"Android App",
  yindao_yuyan:"Languages",
- yindao_logout:"退出/切换账号",
- yindao_music:"声音",
- yindao_help:"帮助",
- yindao_rank:"排行榜",
+ yindao_logout:"Sign Out / Switch Account",
+ yindao_music:"Sound",
+ yindao_help:"Support",
+ yindao_rank:"Leaderboard",
  // 维护
- weihuzhong:"游戏维护中，请稍后重试 ",
+ weihuzhong:"The game is under maintenance. Please come back later.",
 
  // 夺宝规则
- guizewenzi:`基本规则:
-入座以后，玩家在投币时间内将游戏币投在投币区域。
-玩家拥有的游戏币大于一定数额即能申请上庄。
-游戏开始后，每个位置会获得2张牌，翻牌后庄家和其他位置逐一比对结算胜负
+ guizewenzi:`How to Play:
+All bets need to be placed on the table within given time.
+Every player with a balance larger than a certain amount can apply to bank the table.
+After game starts, each player (including Banker) receives 2 face-down Mahjong tiles. The Banker hand will be compared with the other hands to decide the winner.
 
-麻将牌点数说明:
-游戏使用麻将的1-9筒和白板，计为1-10点。点数总和超过10点，则只算个位数。
+About Mahjong Suits:
+The game uses 1-9 Dot-tiles and White Dragons as 1 to 10 游戏使用麻将的1-9筒和白板，计为1-10点。点数总和超过10点，则只算个位数。
 牌型大小：豹子&gt;天杠&gt;9点&gt;8点&gt;7点&gt;6点&gt;5点&gt;4点&gt;3点&gt;2点&gt;1点&gt;0点
 豹子：2张一样的牌称为豹子，白板豹子最大。
 天杠：2筒+8筒。
