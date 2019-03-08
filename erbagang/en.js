@@ -19,7 +19,7 @@ window.i18n.languages['en'] = {
  zongtouzhu:"Total: %{zongtouzhu}",
  wotouzhu:"Me: %{wotouzhu}",
  zichan: "Assets: %{zichan}",
- zhunbeijin:"Bankroll: %{zhunbeijin}", //准备金？？
+ zhunbeijin:"Bankroll: %{zhunbeijin}",
  yuebuzu: "Insufficient balance. Please deposit.",
  touzhu:"Current Bet Limit: %{touzhu}",
  denglu:"Please sign in from the menu on the top right.",
