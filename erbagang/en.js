@@ -30,7 +30,7 @@ window.i18n.languages['en'] = {
  xzchenggong:"Applied to un-bank.",
  shangzhuang:"Bank the Table",
  xuanzhong:"The number of rounds should be larger than 0 when auto-recharge is on.",
- zbjinshangxian:"To bank th table, your bankroll cannot be under %{zbjinshangxian}.",
+ zbjinshangxian:"To bank the table, your bankroll cannot be under %{zbjinshangxian}.",
  dengdai:"Waiting for next round...", // 记得加上...
  jipai:"Tile Counting",
  jihaozhuo:"Table %{jihaozhuo}", // x号桌
