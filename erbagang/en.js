@@ -60,7 +60,7 @@ window.i18n.languages['en'] = {
  // 结算
  jiesuantou:"Top 5",
  lianzhuang:"Continue Banking",
- xiazhuang:"Quit Banking",
+ xiazhuang:"Un-bank",
 
  //购买弹层
  yueyichang:"Error in account balance. Please contact: support@coingame.com",
